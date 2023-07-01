@@ -1,4 +1,4 @@
-function growingPlant(upSpeed, downSpeed) {
+function growingPlant(upSpeed, downSpeed,desiredHeight) {
   throw new Error('not valid input');
 }
 

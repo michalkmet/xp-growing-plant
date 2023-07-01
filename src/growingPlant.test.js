@@ -7,4 +7,7 @@ describe('growingPlant', () => {
   it('should return exception when given wrong downSpeed input ', () => {
     expect(() => growingPlant(10,'lol')).toThrow();
   });
+  it('should return exception when given wrong desiredHeight input ', () => {
+    expect(() => growingPlant(10,5,[])).toThrow();
+  });
 });
