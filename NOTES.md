@@ -60,7 +60,7 @@ The number of days that it will take for the plant to reach/pass desiredHeight (
 ## Plans
 
 - ✅ TODO it should return exception when given wrong upSpeed input 
-- ⚠ TODO it should return exception when given wrong downSpeed input 
+- ✅ TODO it should return exception when given wrong downSpeed input 
 - ⚠ TODO it should return exception when given wrong desiredHeight input
 - ⚠ TODO it should return 1 when given (10,5,4)
 - ⚠ TODO it should return 2 when given (10,9,11)
