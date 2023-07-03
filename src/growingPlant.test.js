@@ -22,4 +22,7 @@ describe('growingPlant', () => {
   it('should return 10 when given (100,10,910)', () => {
     expect(growingPlant(100,10,910)).toBe(10);
   });
+  it('should return 24 when given (28,8,486)', () => {
+    expect(growingPlant(28,8,486)).toBe(24);
+  });
 });

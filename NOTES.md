@@ -66,4 +66,4 @@ The number of days that it will take for the plant to reach/pass desiredHeight (
 - ✅  it should return 2 when given (10,9,11)
 - ✅  it should return 3 when given (10,4,20)
 - ✅  it should return 10 when given (100,10,910)
-- ⚠ TODO it should return 24 when given (28,8,486)
+- 🚧 TODO it should return 24 when given (28,8,486)
