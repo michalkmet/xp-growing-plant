@@ -9,10 +9,15 @@ function growingPlant(upSpeed, downSpeed,desiredHeight) {
     ){
       throw new Error('not valid input');
     }
-    if (upSpeed === 10 && downSpeed === 9 && desiredHeight === 11){
-      return 2;
+
+    let days = 0;
+    let realPlantHeight = 0;
+    while (realPlantHeight < desiredHeight){
+      realPlantHeight += upSpeed;
+      days++;
     }
-    return 1;
+
+    return days;
 }
 
 module.exports = growingPlant;
