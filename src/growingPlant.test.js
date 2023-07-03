@@ -13,4 +13,7 @@ describe('growingPlant', () => {
   it('should return 1 when given (10,5,4)', () => {
     expect(growingPlant(10,5,4)).toBe(1);
   });
+  it('should return 2 when given (10,9,11)', () => {
+    expect(growingPlant(10,9,11)).toBe(2);
+  });
 });
