@@ -10,11 +10,15 @@ function growingPlant(upSpeed, downSpeed,desiredHeight) {
       throw new Error('not valid input');
     }
 
-    let days = 0;
+    let days = 1;
     let realPlantHeight = 0;
     while (realPlantHeight < desiredHeight){
       realPlantHeight += upSpeed;
-      days++;
+      if(realPlantHeight < desiredHeight){
+        realPlantHeight -= downSpeed;
+        days++;
+      }
+      continue;
     }
 
     return days;
